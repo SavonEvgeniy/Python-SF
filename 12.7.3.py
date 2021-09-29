@@ -4,5 +4,5 @@ per_cent_values = list(per_cent.values())
 profit = [round((i*money)/100,2) for i in per_cent_values]
 max_profit = max(profit)
 print(profit)
-print("Максимальная сумма, которую вы можете заработать -", round(max_profit,2))
+print("Максимальная сумма, которую вы можете заработать-", round(max_profit,2))
 
